@@ -33,7 +33,7 @@ export default class ItemAddForm extends React.Component {
           placeholder="What needs to be done"
           value={label}
         />
-        <button type="button" className="btn btn-outline-secondary btn-width">
+        <button type="button" className="btn btn-outline-secondary btn-width" onClick={this.onSubmit}>
           Add Item
         </button>
       </form>
